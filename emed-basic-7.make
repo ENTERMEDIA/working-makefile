@@ -1,7 +1,7 @@
 ; Drupal Core
 api = 2
 core = "7.x"
-projects[drupal][version] = "7.x"
+projects[drupal][version] = 7.14
 
 ; Modules
 projects[admin_menu][subdir] = "contrib"
