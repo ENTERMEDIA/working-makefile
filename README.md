@@ -16,5 +16,5 @@ git clone git@github.com:ENTERMEDIA/working-makefile.git
 Execute a drush make command in the parent directory of where you would like the new installation to be.
 ~~~
 drush make /path/to/makefile/emed-basic-7.make my-new-site
-~~
+~~~
 This will create a new Drupal installation with all of the modules included in this makefile installed within the _my-new-site_ directory.
