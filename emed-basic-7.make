@@ -20,6 +20,8 @@ projects[google_analytics][subdir] = "contrib"
 
 projects[xmlsitemap][subdir] = "contrib"
 
+projects[date][subdir] = "contrib"
+
 projects[ctools][subdir] = "contrib"
 projects[views][subdir] = "contrib"
 projects[views_slideshow][subdir] = "contrib"
