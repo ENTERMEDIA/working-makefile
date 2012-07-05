@@ -51,6 +51,7 @@ projects[blueprint][download][url] = "git://github.com/urbanlink/drupal_blueprin
 projects[blueprint][download][branch] = "master"
 
 ; Libraries
+
 ;  This is the actual blueprint core library.  To use the theme you will have to
 ;  a bit of file management.  Be sure that your path looks like
 ;  ('sites/all/libraries/blueprint/screen.css').  This will mean removing a bunch of the
@@ -59,3 +60,9 @@ projects[blueprint][download][branch] = "master"
 libraries[blueprint][download][type] = "git"
 libraries[blueprint][download][url] = "git://github.com/joshuaclayton/blueprint-css.git"
 libraries[blueprint][download][branch] = "master"
+
+;  This is for views slideshow.
+;  Grabbing jquery.cycle.all.latest.min.js renaming and putting in the appropriate dir
+libraries[jquery.cycle.all.min.js][download][type] = "file"
+libraries[jquery.cycle.all.min.js][download][url] = "https://github.com/downloads/malsup/cycle/jquery.cycle.all.latest.min.js"
+libraries[jquery.cycle.all.min.js][destination] ="libraries/jquery.cycle"
