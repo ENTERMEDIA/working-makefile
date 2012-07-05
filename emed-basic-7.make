@@ -9,6 +9,10 @@ projects[admin_menu][subdir] = "contrib"
 
 projects[devel][subdir] = "contrib"
 
+projects[fpa][subdir] = "contrib"
+
+projects[module_filter][subdir] = "contrib"
+
 projects[features][subdir] = "contrib"
 
 projects[strongarm][subdir] = "contrib"
