@@ -13,6 +13,8 @@ projects[fpa][subdir] = "contrib"
 
 projects[module_filter][subdir] = "contrib"
 
+projects[diff][subdir] = "contrib"
+
 projects[features][subdir] = "contrib"
 
 projects[strongarm][subdir] = "contrib"
@@ -29,6 +31,7 @@ projects[date][subdir] = "contrib"
 
 projects[ctools][subdir] = "contrib"
 projects[views][subdir] = "contrib"
+projects[views_bulk_operations][subdir] = "contrib"
 projects[views_slideshow][subdir] = "contrib"
 
 projects[imce][subdir] = "contrib"
