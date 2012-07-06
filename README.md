@@ -21,6 +21,6 @@ This will create a new Drupal installation with all of the modules included in t
 
 ###A quik note about blueprint
 
-Presently this makefile is pulling a [modified D7 blueprint theme](https://github.com/urbanlink/drupal_blueprint_7) as well as the [core blueprint framework](https://github.com/joshuaclayton/blueprint-css).  However, the drupal theme wishes to have the library structure appear as _/sites/all/libraries/blueprint/screen.css_ but due to the cruft in the frameworks repository it will come through as _/sites/all/libraries/blueprint/blueprint/screen.css_.  This means that if you wish to make use of the bluprint theme you will have to go into the libraries folder and reorganize a bit _(basically a bit of moving/deleting)_.
+Presently this makefile is pulling a [modified D7 blueprint theme](https://github.com/urbanlink/drupal_blueprint_7) as well as the [core blueprint framework](https://github.com/joshuaclayton/blueprint-css).  However, the drupal theme wishes to have the library structure appear as _/sites/all/libraries/blueprint/screen.css_ but due to the cruft in the frameworks repository it will come through as _/sites/all/libraries/blueprint/blueprint/screen.css_.  This means that if you wish to make use of the bluprint theme you will have to go into the libraries folder and reorganize a bit (basically a bit of moving/deleting).
 
 Just an FYI.
