@@ -11,6 +11,8 @@ projects[devel][subdir] = "contrib"
 
 projects[fpa][subdir] = "contrib"
 
+projects[imagecache_actions][subdir] = "contrib"
+
 projects[module_filter][subdir] = "contrib"
 
 projects[diff][subdir] = "contrib"
