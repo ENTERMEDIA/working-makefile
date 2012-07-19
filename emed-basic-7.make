@@ -33,6 +33,8 @@ projects[xmlsitemap][subdir] = "contrib"
 
 projects[date][subdir] = "contrib"
 
+projects[email][subdir] = "contrib"
+
 projects[ctools][subdir] = "contrib"
 projects[views][subdir] = "contrib"
 projects[views_bulk_operations][subdir] = "contrib"
