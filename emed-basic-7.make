@@ -29,6 +29,8 @@ projects[entityreference][subdir] = "contrib"
 
 projects[google_analytics][subdir] = "contrib"
 
+projects[site_verify][subdir] = "contrib"
+
 projects[xmlsitemap][subdir] = "contrib"
 
 projects[date][subdir] = "contrib"
