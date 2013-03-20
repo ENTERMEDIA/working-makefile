@@ -54,7 +54,7 @@ projects[globalredirect][subdir] = "contrib"
 ;   Plus a couple of handy sassy grid systems. This will only install the base theme.
 ;   You will need sass and compass (and therefore Ruby) to complete the installation of a
 ;   subtheme.  See http://drupal.org/project/aurora for further installation instruction.
-projects[] = aurora;
+projects[aurora][type] = theme;
 
 ; Libraries
 
