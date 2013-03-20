@@ -50,27 +50,17 @@ projects[pathauto][subdir] = "contrib"
 projects[globalredirect][subdir] = "contrib"
 
 ; Themes
-;  We're pulling the blueprint theme from urbanlink's github account.  He has spent
-;  some time updating this theme to D7, as the main project on d.o seems to have little
-;  movement.  When and if the project on d.o is updated, we should consider changing this.
-projects[blueprint][type] = theme
-projects[blueprint][download][type] = "git"
-projects[blueprint][download][url] = "git://github.com/urbanlink/drupal_blueprint_7.git"
-projects[blueprint][download][branch] = "master"
+;   We've taken a shining to Aurora lately, as it uses SASS/Compass (which has bluprint)
+;   Plus a couple of handy sassy grid systems. This will only install the base theme.
+;   You will need sass and compass (and therefore Ruby) to complete the installation of a
+;   subtheme.  See http://drupal.org/project/aurora for further installation instruction.
+projects[] = aurora;
 
 ; Libraries
 
-;  This is the actual blueprint core library.  To use the theme you will have to
-;  a bit of file management.  Be sure that your path looks like
-;  ('sites/all/libraries/blueprint/screen.css').  This will mean removing a bunch of the
-;  cruft that comes in this repo.  There may be a way to do this through a library patch
-;  or finding a more direct download, but atm I'm wasting to much time looking for it.
-libraries[blueprint][download][type] = "git"
-libraries[blueprint][download][url] = "git://github.com/joshuaclayton/blueprint-css.git"
-libraries[blueprint][download][branch] = "master"
-
-;  This is for views slideshow.
+;  Views slideshow.
 ;  Grabbing jquery.cycle.all.latest.min.js renaming and putting in the appropriate dir
 libraries[jquery.cycle.all.min.js][download][type] = "file"
 libraries[jquery.cycle.all.min.js][download][url] = "https://github.com/downloads/malsup/cycle/jquery.cycle.all.latest.min.js"
+libraries[jquery.cycle.all.min.js][filename] ="jquery.cycle.all.min.js"
 libraries[jquery.cycle.all.min.js][destination] ="libraries/jquery.cycle"
