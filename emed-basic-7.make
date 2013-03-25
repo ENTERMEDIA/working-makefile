@@ -56,6 +56,8 @@ projects[globalredirect][subdir] = "contrib"
 ;   subtheme.  See http://drupal.org/project/aurora for further installation instruction.
 projects[aurora][type] = theme;
 
+projects[rubik][type] = theme;
+
 ; Libraries
 
 ;  Views slideshow.
