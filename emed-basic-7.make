@@ -49,6 +49,8 @@ projects[wysiwyg][subdir] = "contrib"
 projects[pathauto][subdir] = "contrib"
 projects[globalredirect][subdir] = "contrib"
 
+projects[panels][subdir] = "contrib"
+
 ; Themes
 ;   We've taken a shining to Aurora lately, as it uses SASS/Compass (which has bluprint)
 ;   Plus a couple of handy sassy grid systems. This will only install the base theme.
