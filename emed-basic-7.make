@@ -1,7 +1,7 @@
 ; Drupal Core
 api = 2
 core = "7.x"
-projects[drupal][version] = 7.21
+projects[drupal][version] = 7.22
 
 ; Modules
 ;  Loosely grouped by relation
@@ -67,7 +67,7 @@ projects[rubik][type] = theme;
 
 ;  Views slideshow.
 ;  Grabbing jquery.cycle.all.latest.min.js renaming and putting in the appropriate dir
-libraries[jquery.cycle.all.min.js][download][type] = "file"
-libraries[jquery.cycle.all.min.js][download][url] = "https://github.com/downloads/malsup/cycle/jquery.cycle.all.latest.min.js"
-libraries[jquery.cycle.all.min.js][filename] ="jquery.cycle.all.min.js"
-libraries[jquery.cycle.all.min.js][destination] ="libraries/jquery.cycle"
+;libraries[jquery.cycle.all.min.js][download][type] = "file"
+;libraries[jquery.cycle.all.min.js][download][url] = "https://github.com/downloads/malsup/cycle/jquery.cycle.all.latest.min.js"
+;libraries[jquery.cycle.all.min.js][filename] ="jquery.cycle.all.min.js"
+;libraries[jquery.cycle.all.min.js][destination] ="libraries/jquery.cycle"
