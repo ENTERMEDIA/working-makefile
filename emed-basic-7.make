@@ -39,7 +39,9 @@ projects[email][subdir] = "contrib"
 
 project[magic][subdir] = "contrib"
 
-project[html5_tools][subdir] ="contrib"
+project[html5_tools][subdir] = "contrib"
+
+project[elements][subdir] = "contrib"
 
 projects[ctools][subdir] = "contrib"
 projects[views][subdir] = "contrib"
