@@ -43,6 +43,8 @@ project[html5_tools][subdir] = "contrib"
 
 project[elements][subdir] = "contrib"
 
+project[metatag][subdir] = "contrib"
+
 projects[ctools][subdir] = "contrib"
 projects[views][subdir] = "contrib"
 projects[views_bulk_operations][subdir] = "contrib"
