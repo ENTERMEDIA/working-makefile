@@ -1,7 +1,7 @@
 ; Drupal Core
 api = 2
 core = "7.x"
-projects[drupal][version] = 7.22
+projects[drupal][version] = 7.23
 
 ; Modules
 ;  Loosely grouped by relation
