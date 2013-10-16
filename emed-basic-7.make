@@ -37,6 +37,8 @@ projects[date][subdir] = "contrib"
 
 projects[email][subdir] = "contrib"
 
+projects[imagestyleflush][subdir] = "contrib"
+
 project[magic][subdir] = "contrib"
 
 project[html5_tools][subdir] = "contrib"
