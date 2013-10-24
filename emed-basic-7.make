@@ -25,6 +25,8 @@ projects[libraries][subdir] = "contrib"
 
 projects[token][subdir] = "contrib"
 
+projects[entity][subdir] = "contrib"
+
 projects[entityreference][subdir] = "contrib"
 
 projects[google_analytics][subdir] = "contrib"
