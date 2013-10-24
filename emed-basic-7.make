@@ -41,13 +41,13 @@ projects[email][subdir] = "contrib"
 
 projects[imagestyleflush][subdir] = "contrib"
 
-project[magic][subdir] = "contrib"
+projects[magic][subdir] = "contrib"
 
-project[html5_tools][subdir] = "contrib"
+projects[html5_tools][subdir] = "contrib"
 
-project[elements][subdir] = "contrib"
+projects[elements][subdir] = "contrib"
 
-project[metatag][subdir] = "contrib"
+projects[metatag][subdir] = "contrib"
 
 projects[ctools][subdir] = "contrib"
 projects[views][subdir] = "contrib"
