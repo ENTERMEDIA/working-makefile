@@ -35,6 +35,8 @@ projects[site_verify][subdir] = "contrib"
 
 projects[xmlsitemap][subdir] = "contrib"
 
+projects[phone][subdir] = "contrib"
+
 projects[date][subdir] = "contrib"
 
 projects[email][subdir] = "contrib"
