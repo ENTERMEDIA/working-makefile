@@ -1,7 +1,7 @@
 ; Drupal Core
 api = 2
 core = "7.x"
-projects[drupal][version] = 7.30
+projects[drupal][version] = 7.36
 
 ; Modules
 ;  Loosely grouped by relation
@@ -70,6 +70,8 @@ projects[globalredirect][subdir] = "contrib"
 projects[panels][subdir] = "contrib"
 
 projects[webform][subdir] = "contrib"
+
+projects[password_policy][subdir] = "contrib"
 
 ; Themes
 ;   We've taken a shining to Aurora lately, as it uses SASS/Compass (which has bluprint)
