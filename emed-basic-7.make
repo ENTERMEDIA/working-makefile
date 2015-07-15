@@ -71,13 +71,3 @@ projects[panels][subdir] = "contrib"
 projects[webform][subdir] = "contrib"
 
 projects[password_policy][subdir] = "contrib"
-
-; Themes
-;   We've taken a shining to Aurora lately, as it uses SASS/Compass (which has bluprint)
-;   Plus a couple of handy sassy grid systems. This will only install the base theme.
-;   You will need sass and compass (and therefore Ruby) to complete the installation of a
-;   subtheme.  See http://drupal.org/project/aurora for further installation instruction.
-projects[aurora][type] = theme;
-
-projects[tao][type] = theme;
-projects[rubik][type] = theme;
